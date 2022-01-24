@@ -9,7 +9,7 @@ import os
 """
 API_NAME = "Servico API"
 VERSION_API = '1.0.1'
-TITLE_API = "api-sentimentos"
+TITLE_API = "api-rotacao-imagem"
 DESCRIPTION_API = "API."
 
 # Flask settings
