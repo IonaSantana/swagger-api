@@ -6,6 +6,7 @@ import pandas as pd
 import numpy as np
 import cv2
 import re
+from flask import Blueprint, request, render_template
 
 class ImageService():
 
@@ -36,7 +37,7 @@ class ImageService():
         #             "listaImagens": json.loads(df_response.to_json(
         #                                                                    orient='records', force_ascii=False))}
 
-        return response_image
+        return 'link de acesso a imagem rotacionada: http://localhost:9000/rotate_img'
 
     def rotate_Image(self, path):
         """
@@ -44,7 +45,7 @@ class ImageService():
         """
         logger.debug('Iniciando a imagem...')
         logger.debug(path)
-        path_split = "service/service/Bichinho-49.jpeg"
+        path_split = 'service/static/bichinhos.jpeg'
         logger.debug(path_split + ' aaa')
         img = cv2.imread(path_split)
         
@@ -53,7 +54,7 @@ class ImageService():
         
         img_rotate_180 = cv2.rotate(img, cv2.ROTATE_180)
        
-        adress_image = 'service/service/YESTE.jpeg'
+        adress_image = 'service/static/bichinhos.jpeg'
         logger.debug(adress_image)
         image = cv2.imwrite(adress_image, img_rotate_180)
         logger.debug(adress_image)

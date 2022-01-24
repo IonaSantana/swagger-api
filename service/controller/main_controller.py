@@ -1,3 +1,4 @@
+from flask import request
 from flask_restplus import Resource
 from loguru import logger
 
@@ -11,7 +12,7 @@ import cv2
 
 pa = api.namespace("")
 
-@pa.route('/main', methods=['POST'])
+@pa.route('/rotate_img', methods=['POST'])
 class MainService(Resource):
    
     @api.expect(doc_swagger.INPUT_MAIN_SERVICE)

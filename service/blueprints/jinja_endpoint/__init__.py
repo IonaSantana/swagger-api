@@ -1,11 +1,7 @@
-# blueprints/jinja_endpoint/__init__.py
 from flask import Blueprint, request, render_template
 
-blueprint = Blueprint('jinja_template', __name__, url_prefix='/jinja_template')
+blueprint = Blueprint('rotate_img', __name__, url_prefix='/rotate_img')
 
 @blueprint.route('')
 def get_template():
-    top = request.args.get('top') if 'top' in request.args else ''
-    bottom = request.args.get('bottom') if 'bottom' in request.args else ''
-
-    return render_template('example.html', top=top, bottom=bottom)
+    return render_template('example.html')

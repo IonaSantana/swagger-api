@@ -38,5 +38,5 @@ definitions:
     type: object
     properties:
     example: {
-      "textoMensagem": "As"
+      "Link Imagem": "Teste"
     }

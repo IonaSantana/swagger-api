@@ -3,12 +3,8 @@
     <head>
         <link rel="stylesheet" href="{{ url_for('static', filename='examples.css') }}">
     </head>
-    <body
-        <a href="https://bit.ly/3slPB3c">
-            <div class="meme">
-                <p class="top">{{top}}</p>
-                <p class="bottom">{{bottom}}</p>
-            </div>
-        </a>
+    <body>
+        <h1 class="title">ctrl + shift + r -> depois de executar rotate_img</h1>
+        <img src= "{{ url_for('static', filename='bichinhos.jpeg') }}">
     </body>
 </html>
