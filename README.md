@@ -14,4 +14,5 @@ docker-compose up
 A API foi desenvolvido durante o estágio, usando o template disponibilizado pelo Patrick, que pode ser encontrado aqui:
 * https://github.com/PatrickLdA/swagger_api
 
-![caption] gravacao-api.mov
+
+![Alt Text] gravacao-api (1).gif
