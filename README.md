@@ -11,7 +11,8 @@ docker-compose build
 docker-compose up
 ```
 
-A API foi desenvolvido durante o estágio, usando o template disponibilizado pelo Patrick, que pode ser encontrado aqui: * https://github.com/PatrickLdA/swagger_api
+A API foi desenvolvido durante o estágio, usando o template disponibilizado pelo Patrick, que pode ser encontrado aqui:
+* https://github.com/PatrickLdA/swagger_api
 
 
 
