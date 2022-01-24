@@ -3,7 +3,6 @@ import os
 from loguru import logger
 from flask import Flask, Blueprint
 from flask_cors import CORS
-from service.blueprints.basic_endpoints import blueprint as basic_endpoints
 from service.blueprints.jinja_endpoint import blueprint as jinja_template_blueprint
 
 from service import settings
