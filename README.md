@@ -15,4 +15,4 @@ A API foi desenvolvido durante o estágio, usando o template disponibilizado pel
 * https://github.com/PatrickLdA/swagger_api
 
 
-![Alt Text] gravacao-api (1).gif
+<img src="gravacao-api (1).gif" />
